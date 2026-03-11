@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今日头条自动化 - 控制面板</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 今日头条自动化脚本</h1>
+            <p class="subtitle">Web 控制面板</p>
+        </header>
+
+        <div class="status-card">
+            <div class="status-header">
+                <h2>运行状态</h2>
+                <span id="status-indicator" class="status-indicator stopped">已停止</span>
+            </div>
+            <div class="status-info">
+                <p><strong>启动时间:</strong> <span id="start-time">-</span></p>
+                <p><strong>当前循环:</strong> <span id="current-cycle">0</span> / <span id="total-cycles">0</span></p>
+                <p><strong>评论功能:</strong> <span style="color: #28a745; font-weight: bold;">✅ 已启用 (100% 概率)</span></p>
+            </div>
+        </div>
+
+        <div class="control-buttons">
+            <button id="start-btn" class="btn btn-start">▶ 启动脚本</button>
+            <button id="stop-btn" class="btn btn-stop" disabled>⏹ 停止脚本</button>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value" id="total-links">0</div>
+                <div class="stat-label">总处理链接</div>
+            </div>
+            <div class="stat-card success">
+                <div class="stat-value" id="success-likes">0</div>
+                <div class="stat-label">成功点赞</div>
+            </div>
+            <div class="stat-card error">
+                <div class="stat-value" id="failed-likes">0</div>
+                <div class="stat-label">失败点赞</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="success-rate">0%</div>
+                <div class="stat-label">成功率</div>
+            </div>
+        </div>
+
+        <div class="accounts-card">
+            <div class="accounts-header">
+                <h2>👥 账号管理</h2>
+                <button id="add-account-btn" class="btn btn-export">➕ 添加账号</button>
+            </div>
+            <div id="accounts-container" class="accounts-container">
+                <p class="log-empty">加载中...</p>
+            </div>
+        </div>
+
+        <div class="config-card">
+            <div class="config-header">
+                <h2>⚙️ 系统配置</h2>
+                <button id="save-config-btn" class="btn btn-start">💾 保存配置</button>
+            </div>
+            <div class="config-grid">
+                <div class="config-group">
+                    <h3>基础配置</h3>
+                    <div class="form-group">
+                        <label>最小延迟(秒)</label>
+                        <input type="number" id="config-min-delay" class="form-input" value="2" min="1">
+                    </div>
+                    <div class="form-group">
+                        <label>最大延迟(秒)</label>
+                        <input type="number" id="config-max-delay" class="form-input" value="4" min="1">
+                    </div>
+                    <div class="form-group">
+                        <label>最大重试次数</label>
+                        <input type="number" id="config-max-retries" class="form-input" value="2" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label>每次处理推荐内容数</label>
+                        <input type="number" id="config-max-links" class="form-input" value="20" min="1">
+                    </div>
+                </div>
+
+                <div class="config-group">
+                    <h3>浏览器配置</h3>
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" id="config-headless">
+                            无头模式(后台运行)
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" id="config-maximize" checked>
+                            最大化窗口
+                        </label>
+                    </div>
+                </div>
+
+                <div class="config-group">
+                    <h3>循环配置</h3>
+                    <div class="form-group">
+                        <label>最大循环次数</label>
+                        <input type="number" id="config-max-cycles" class="form-input" value="5" min="1">
+                    </div>
+                    <div class="form-group">
+                        <label>循环间隔(分钟)</label>
+                        <input type="number" id="config-cycle-interval" class="form-input" value="60" min="1">
+                    </div>
+                    <div class="form-group">
+                        <label>每次处理用户数</label>
+                        <input type="number" id="config-users-per-cycle" class="form-input" value="10" min="1">
+                    </div>
+                    <div class="form-group">
+                        <label>每个用户处理视频数</label>
+                        <input type="number" id="config-videos-per-user" class="form-input" value="5" min="1">
+                    </div>
+                </div>
+
+                <div class="config-group">
+                    <h3>日志配置</h3>
+                    <div class="form-group">
+                        <label>日志级别</label>
+                        <select id="config-log-level" class="form-input">
+                            <option value="DEBUG">DEBUG</option>
+                            <option value="INFO" selected>INFO</option>
+                            <option value="WARNING">WARNING</option>
+                            <option value="ERROR">ERROR</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>日志目录</label>
+                        <input type="text" id="config-log-dir" class="form-input" value="logs">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="logs-card">
+            <h2>📋 运行日志</h2>
+            <div id="logs-container" class="logs-container">
+                <p class="log-empty">暂无日志...</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="account-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">添加账号</h3>
+                <span class="close-btn">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>账号名称</label>
+                    <input type="text" id="account-name" class="form-input" placeholder="例如：工作账号">
+                </div>
+                <div class="form-group">
+                    <label>Cookie 文件</label>
+                    <input type="text" id="account-cookie" class="form-input" placeholder="例如：toutiao_cookies.pkl">
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="account-enabled" checked>
+                        启用账号
+                    </label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="cancel-modal" class="btn">取消</button>
+                <button id="save-account" class="btn btn-start">保存</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
+

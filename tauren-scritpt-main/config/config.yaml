@@ -1,0 +1,16 @@
+logging:
+  level: INFO
+  log_dir: logs
+operation:
+  browser:
+    headless: false
+    maximize: true
+  cycle:
+    cycle_interval: 3600
+    max_cycles: 5
+    users_per_cycle: 10
+    videos_per_user: 2
+  max_delay: 4
+  max_links_per_cycle: 2
+  max_retries: 2
+  min_delay: 2

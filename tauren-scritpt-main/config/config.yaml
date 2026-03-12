@@ -1,0 +1,20 @@
+logging:
+  level: INFO
+  log_dir: logs
+operation:
+  browser:
+    headless: false
+    maximize: true
+    proxy_enabled: false
+    proxy_pool: []
+  comment_rate: 100
+  cycle:
+    cycle_interval: 1800
+    max_cycles: 5
+    users_per_cycle: 15
+    videos_per_user: 3
+  like_rate: 50
+  max_delay: 8
+  max_links_per_cycle: 3
+  max_retries: 2
+  min_delay: 4

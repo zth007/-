@@ -1,0 +1,7 @@
+
+helium&gt;=7.0.0
+selenium&gt;=4.0.0
+pyyaml&gt;=6.0
+flask&gt;=2.3.0
+requests&gt;=2.28.0
+

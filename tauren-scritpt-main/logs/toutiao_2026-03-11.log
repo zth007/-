@@ -1,0 +1,883 @@
+2026-03-11 14:22:45,151 - ERROR - 配置文件不存在: config/config.yaml
+2026-03-11 14:23:51,195 - INFO - 登录成功: 登录成功
+2026-03-11 14:23:55,141 - INFO - 登录成功: 登录成功
+2026-03-11 14:24:27,273 - INFO - 关注成功: 0
+2026-03-11 14:24:27,273 - ERROR - 关注失败: 0
+2026-03-11 14:24:47,116 - INFO - 推荐操作成功: 0
+2026-03-11 14:24:47,117 - ERROR - 推荐操作失败: 0
+2026-03-11 14:24:55,780 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)': /session/5083e94bd8f32c735ed5c4f7e9561ebe
+2026-03-11 14:25:03,988 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=13944): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/5083e94bd8f32c735ed5c4f7e9561ebe
+2026-03-11 14:25:08,076 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=13944): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/5083e94bd8f32c735ed5c4f7e9561ebe
+2026-03-11 14:25:12,192 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=13944): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/5083e94bd8f32c735ed5c4f7e9561ebe
+2026-03-11 14:25:16,276 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 14:25:40,978 - ERROR - 配置文件不存在: config/config.yaml
+2026-03-11 14:25:59,111 - INFO - 登录成功: 登录成功
+2026-03-11 14:26:01,337 - INFO - 登录成功: 登录成功
+2026-03-11 14:26:32,330 - INFO - 关注成功: 0
+2026-03-11 14:26:44,158 - ERROR - 点赞失败: https://www.toutiao.com/video/7615088071167476262/ - 点赞用户视频 1
+2026-03-11 14:27:05,547 - ERROR - 点赞失败: https://www.toutiao.com/video/7615807132763570723/ - 点赞用户视频 2
+2026-03-11 14:27:28,322 - ERROR - 点赞失败: https://www.toutiao.com/video/7615774441599828506/ - 点赞用户视频 3
+2026-03-11 14:27:51,276 - INFO - 点赞成功: https://www.toutiao.com/video/7615675073306886656/ - 点赞用户视频 4
+2026-03-11 14:28:10,529 - INFO - 点赞成功: https://www.toutiao.com/video/7615796822614884904/ - 点赞用户视频 5
+2026-03-11 14:28:35,750 - INFO - 点赞成功: https://www.toutiao.com/video/7613423850289775113/ - 点赞用户视频 1
+2026-03-11 14:29:00,134 - INFO - 点赞成功: https://www.toutiao.com/video/7614674156445123087/ - 点赞用户视频 2
+2026-03-11 14:29:24,151 - INFO - 点赞成功: https://www.toutiao.com/video/7614656196821254697/ - 点赞用户视频 3
+2026-03-11 14:29:44,218 - INFO - 点赞成功: https://www.toutiao.com/video/7614620712736686646/ - 点赞用户视频 4
+2026-03-11 14:30:03,927 - INFO - 点赞成功: https://www.toutiao.com/video/7614618722589786633/ - 点赞用户视频 5
+2026-03-11 14:30:34,443 - INFO - 点赞成功: https://www.toutiao.com/video/7615848468606648872/ - 点赞用户视频 1
+2026-03-11 14:30:54,502 - ERROR - 点赞失败: https://www.toutiao.com/video/7615848468606648872/#comment - 点赞用户视频 2
+2026-03-11 14:31:18,121 - INFO - 点赞成功: https://www.toutiao.com/video/7613434068717290024/ - 点赞用户视频 3
+2026-03-11 14:31:40,232 - ERROR - 点赞失败: https://www.toutiao.com/video/7613434068717290024/#comment - 点赞用户视频 4
+2026-03-11 14:31:59,404 - INFO - 点赞成功: https://www.toutiao.com/video/7615577994463117859/ - 点赞用户视频 5
+2026-03-11 14:32:28,663 - INFO - 点赞成功: https://www.toutiao.com/video/7615833778296078875/ - 点赞用户视频 1
+2026-03-11 14:32:53,940 - ERROR - 点赞失败: https://www.toutiao.com/video/7615833778296078875/#comment - 点赞用户视频 2
+2026-03-11 14:33:12,680 - INFO - 点赞成功: https://www.toutiao.com/video/7615671189645656614/ - 点赞用户视频 3
+2026-03-11 14:33:30,396 - ERROR - 点赞失败: https://www.toutiao.com/video/7615671189645656614/#comment - 点赞用户视频 4
+2026-03-11 14:33:53,451 - INFO - 点赞成功: https://www.toutiao.com/video/7615849910402908678/ - 点赞用户视频 5
+2026-03-11 14:34:15,348 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)': /session/14560170c0b378d6ad7ff960fd34c175
+2026-03-11 14:34:19,434 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=14090): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/14560170c0b378d6ad7ff960fd34c175
+2026-03-11 14:34:23,539 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=14090): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/14560170c0b378d6ad7ff960fd34c175
+2026-03-11 14:34:31,722 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=14090): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/14560170c0b378d6ad7ff960fd34c175/window/handles
+2026-03-11 14:34:35,825 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=14090): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/14560170c0b378d6ad7ff960fd34c175/window/handles
+2026-03-11 14:34:39,964 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=14090): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/14560170c0b378d6ad7ff960fd34c175/window/handles
+2026-03-11 14:34:48,155 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=14090): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/14560170c0b378d6ad7ff960fd34c175/window/handles
+2026-03-11 14:34:52,258 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=14090): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/14560170c0b378d6ad7ff960fd34c175/window/handles
+2026-03-11 14:34:56,342 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=14090): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/14560170c0b378d6ad7ff960fd34c175/window/handles
+2026-03-11 14:35:04,521 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=14090): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/14560170c0b378d6ad7ff960fd34c175/window/handles
+2026-03-11 14:35:08,618 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=14090): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/14560170c0b378d6ad7ff960fd34c175/window/handles
+2026-03-11 14:35:12,711 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=14090): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/14560170c0b378d6ad7ff960fd34c175/window/handles
+2026-03-11 14:37:20,033 - ERROR - 配置文件不存在: config/config.yaml
+2026-03-11 14:37:38,103 - INFO - 登录成功: 登录成功
+2026-03-11 14:37:40,565 - INFO - 登录成功: 登录成功
+2026-03-11 14:38:12,911 - INFO - 关注成功: 0
+2026-03-11 14:38:24,449 - INFO - 点赞成功: https://www.toutiao.com/video/7614535869931815476/ - 点赞用户视频 1
+2026-03-11 14:38:48,606 - INFO - 点赞成功: https://www.toutiao.com/video/7615698212162257414/ - 点赞用户视频 2
+2026-03-11 14:39:10,736 - INFO - 点赞成功: https://www.toutiao.com/video/7615683639711416895/ - 点赞用户视频 3
+2026-03-11 14:39:33,077 - INFO - 点赞成功: https://www.toutiao.com/video/7615663121436295706/ - 点赞用户视频 4
+2026-03-11 14:39:55,475 - INFO - 点赞成功: https://www.toutiao.com/video/7615616801833894400/ - 点赞用户视频 5
+2026-03-11 14:40:16,951 - ERROR - 点赞失败: https://www.toutiao.com/video/7613423850289775113/ - 点赞用户视频 1
+2026-03-11 14:40:35,769 - INFO - 点赞成功: https://www.toutiao.com/video/7614697147883061779/ - 点赞用户视频 2
+2026-03-11 14:40:53,593 - ERROR - 点赞失败: https://www.toutiao.com/video/7614674156445123087/ - 点赞用户视频 3
+2026-03-11 14:41:16,536 - ERROR - 点赞失败: https://www.toutiao.com/video/7614656196821254697/ - 点赞用户视频 4
+2026-03-11 14:41:38,103 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)': /session/8c124c0f8ebf1ccfa0be051ee741e655
+2026-03-11 14:41:42,201 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=14745): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/8c124c0f8ebf1ccfa0be051ee741e655
+2026-03-11 14:41:46,285 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=14745): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/8c124c0f8ebf1ccfa0be051ee741e655
+2026-03-11 14:44:57,010 - ERROR - 配置文件不存在: config/config.yaml
+2026-03-11 14:45:15,590 - INFO - 登录成功: 登录成功
+2026-03-11 14:45:18,766 - INFO - 登录成功: 登录成功
+2026-03-11 14:45:53,206 - INFO - 关注成功: 0
+2026-03-11 14:46:05,734 - INFO - 点赞成功: https://www.toutiao.com/video/7615859640177394214/ - 点赞用户视频 1
+2026-03-11 14:46:27,805 - ERROR - 点赞失败: https://www.toutiao.com/video/7615849910402908678/ - 点赞用户视频 2
+2026-03-11 14:46:50,660 - INFO - 点赞成功: https://www.toutiao.com/video/7615815876062888458/ - 点赞用户视频 3
+2026-03-11 14:47:13,409 - INFO - 点赞成功: https://www.toutiao.com/video/7615744396469846582/ - 点赞用户视频 4
+2026-03-11 14:47:31,530 - INFO - 点赞成功: https://www.toutiao.com/video/7615719343048966671/ - 点赞用户视频 5
+2026-03-11 14:47:53,537 - INFO - 点赞成功: https://www.toutiao.com/video/7615637830479512118/ - 点赞用户视频 1
+2026-03-11 14:48:11,295 - INFO - 点赞成功: https://www.toutiao.com/video/7615627772525904430/ - 点赞用户视频 2
+2026-03-11 14:48:29,113 - INFO - 点赞成功: https://www.toutiao.com/video/7615607523323740735/ - 点赞用户视频 3
+2026-03-11 14:48:48,950 - INFO - 点赞成功: https://www.toutiao.com/video/7615482782609637928/ - 点赞用户视频 4
+2026-03-11 14:49:08,026 - INFO - 点赞成功: https://www.toutiao.com/video/7615419722359767606/ - 点赞用户视频 5
+2026-03-11 14:49:31,537 - INFO - 点赞成功: https://www.toutiao.com/video/7615685039942091307/ - 点赞用户视频 1
+2026-03-11 14:49:51,007 - INFO - 点赞成功: https://www.toutiao.com/video/7615691410360025638/ - 点赞用户视频 2
+2026-03-11 14:50:12,764 - INFO - 点赞成功: https://www.toutiao.com/video/7615699490992833034/ - 点赞用户视频 3
+2026-03-11 14:50:36,682 - INFO - 点赞成功: https://www.toutiao.com/video/7615710501460345379/ - 点赞用户视频 4
+2026-03-11 14:50:57,468 - INFO - 点赞成功: https://www.toutiao.com/video/7615727174917653033/ - 点赞用户视频 5
+2026-03-11 14:51:21,111 - INFO - 点赞成功: https://www.toutiao.com/video/7615347688200061503/ - 点赞用户视频 1
+2026-03-11 14:51:40,534 - INFO - 点赞成功: https://www.toutiao.com/video/7615335292370797094/ - 点赞用户视频 2
+2026-03-11 14:52:00,022 - ERROR - 点赞失败: https://www.toutiao.com/video/7615325359512273443/ - 点赞用户视频 3
+2026-03-11 14:52:16,662 - ERROR - 点赞失败: https://www.toutiao.com/video/7615285231397995008/ - 点赞用户视频 4
+2026-03-11 14:52:34,647 - ERROR - 点赞失败: https://www.toutiao.com/video/7615267564062573083/ - 点赞用户视频 5
+2026-03-11 14:52:56,780 - INFO - 点赞成功: https://www.toutiao.com/video/7615541750039364134/ - 点赞用户视频 1
+2026-03-11 14:53:21,454 - INFO - 点赞成功: https://www.toutiao.com/video/7615873797056446976/ - 点赞用户视频 2
+2026-03-11 14:53:39,108 - INFO - 点赞成功: https://www.toutiao.com/video/7615312032929186330/ - 点赞用户视频 3
+2026-03-11 14:53:57,922 - INFO - 点赞成功: https://www.toutiao.com/video/7615561364496532019/ - 点赞用户视频 4
+2026-03-11 14:54:16,812 - INFO - 点赞成功: https://www.toutiao.com/video/7615522656716210723/ - 点赞用户视频 5
+2026-03-11 14:54:39,658 - INFO - 点赞成功: https://www.toutiao.com/video/7614381908100710950/ - 点赞用户视频 1
+2026-03-11 14:54:59,328 - INFO - 点赞成功: https://www.toutiao.com/video/7615331146721509924/ - 点赞用户视频 2
+2026-03-11 14:55:18,085 - INFO - 点赞成功: https://www.toutiao.com/video/7615351767181591078/ - 点赞用户视频 3
+2026-03-11 14:55:36,288 - INFO - 点赞成功: https://www.toutiao.com/video/7615524325285806592/ - 点赞用户视频 4
+2026-03-11 14:55:55,317 - INFO - 点赞成功: https://www.toutiao.com/video/7615470127642903075/ - 点赞用户视频 5
+2026-03-11 14:56:16,264 - INFO - 点赞成功: https://www.toutiao.com/video/7615522414876836390/ - 点赞用户视频 1
+2026-03-11 14:56:35,748 - INFO - 点赞成功: https://www.toutiao.com/video/7615447391545819690/ - 点赞用户视频 2
+2026-03-11 14:56:55,033 - INFO - 点赞成功: https://www.toutiao.com/video/7615641976280580643/ - 点赞用户视频 3
+2026-03-11 14:57:12,671 - ERROR - 点赞失败: https://www.toutiao.com/video/7615499725189513762/ - 点赞用户视频 4
+2026-03-11 14:57:30,646 - ERROR - 点赞失败: https://www.toutiao.com/video/7615461937807245862/ - 点赞用户视频 5
+2026-03-11 14:57:53,012 - INFO - 点赞成功: https://www.toutiao.com/video/7614398382236320294/ - 点赞用户视频 1
+2026-03-11 14:58:11,535 - INFO - 点赞成功: https://www.toutiao.com/video/7615514148000809515/ - 点赞用户视频 2
+2026-03-11 14:58:30,736 - INFO - 点赞成功: https://www.toutiao.com/video/7615519752307524159/ - 点赞用户视频 3
+2026-03-11 14:58:51,409 - INFO - 点赞成功: https://www.toutiao.com/video/7615525781217690162/ - 点赞用户视频 4
+2026-03-11 14:59:10,952 - INFO - 点赞成功: https://www.toutiao.com/video/7615499230261625382/ - 点赞用户视频 5
+2026-03-11 14:59:27,561 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAAkzDa4TAe0T1eOaByVmhSuArh--Y06SXb0b2aXqrAP57-ILDhRsOOMYPv9y5vvKTh/ - WebDriver错误: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: MicrosoftEdge=145.0.3800.97)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6010cacee
+	0x7ff6010bd678
+	0x7ff6010bc775
+	0x7ff6010d7e32
+	0x7ff601138f3b
+	0x7ff601141290
+	0x7ff601109a1c
+	0x7ff601108c76
+	0x7ff601109843
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff60137f264
+	0x7ff60137f3a9
+	0x7ff60136d1e2
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 14:59:28,110 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAA8Ii9kPtjnVGcEZ_mCvISbt-77v68s9x32TIrrdTRe7c/ - WebDriver错误: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6010cacee
+	0x7ff601108435
+	0x7ff601134122
+	0x7ff6010c2807
+	0x7ff60113066e
+	0x7ff60112fefc
+	0x7ff6010a2e95
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff6010a182a
+	0x7ff6014e51f8
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 14:59:28,112 - INFO - 关注成功: 34
+2026-03-11 14:59:28,115 - ERROR - 推荐操作失败: 0
+2026-03-11 14:59:28,115 - ERROR - 关注失败: 0
+2026-03-11 14:59:30,235 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)': /session/d90bf52375e567a8de92cd80c5038fb9
+2026-03-11 14:59:34,319 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=1037): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/d90bf52375e567a8de92cd80c5038fb9
+2026-03-11 14:59:40,460 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=1037): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/d90bf52375e567a8de92cd80c5038fb9
+2026-03-11 14:59:44,559 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=1037): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/d90bf52375e567a8de92cd80c5038fb9
+2026-03-11 14:59:48,653 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=1037): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/d90bf52375e567a8de92cd80c5038fb9
+2026-03-11 14:59:52,725 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:06:04,555 - ERROR - 配置文件不存在: config/config.yaml
+2026-03-11 15:06:22,816 - INFO - 登录成功: 登录成功
+2026-03-11 15:06:25,697 - INFO - 登录成功: 登录成功
+2026-03-11 15:06:57,962 - INFO - 关注成功: 0
+2026-03-11 15:07:07,960 - INFO - 点赞成功: https://www.toutiao.com/video/7615852594997428278/ - 点赞用户视频 1
+2026-03-11 15:07:30,818 - INFO - 点赞成功: https://www.toutiao.com/video/7615844182870983187/ - 点赞用户视频 2
+2026-03-11 15:07:54,699 - ERROR - 点赞失败: https://www.toutiao.com/video/7615473098950705718/ - 点赞用户视频 3
+2026-03-11 15:07:54,712 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAA5PVOXzsCqQ3ScPTOXs-qfvPNSdKJbj5Lfzx36_Ow6tk/ - 窗口已关闭: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=145.0.3800.97)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6016bad0a
+	0x7ff6010ada9d
+	0x7ff601138d96
+	0x7ff601141290
+	0x7ff601109a1c
+	0x7ff601108c76
+	0x7ff601109843
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff60137f264
+	0x7ff60137f3a9
+	0x7ff60136d1e2
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:07:54,715 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAAmQ8qdBaz7Ds_uE14uMVUQo5qmhnIL899ZM6JM3mhuuM/ - 窗口已关闭: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=145.0.3800.97)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6016bad0a
+	0x7ff6010ada9d
+	0x7ff601138d96
+	0x7ff601141290
+	0x7ff601109a1c
+	0x7ff601108c76
+	0x7ff601109843
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff60137f264
+	0x7ff60137f3a9
+	0x7ff60136d1e2
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:07:54,719 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAAW3hW_SZnTgfEmPE9Hkdh2HCvVgNdjdkewLy-1Ra5zlQHXjbilMeXoCf8bMxMGgZf/ - 窗口已关闭: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=145.0.3800.97)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6016bad0a
+	0x7ff6010ada9d
+	0x7ff601138d96
+	0x7ff601141290
+	0x7ff601109a1c
+	0x7ff601108c76
+	0x7ff601109843
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff60137f264
+	0x7ff60137f3a9
+	0x7ff60136d1e2
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:07:54,722 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAAPmmkzkq9u-E7hL0y8LaXI6qs36vxYmRt6arcU820tv0/ - 窗口已关闭: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=145.0.3800.97)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6016bad0a
+	0x7ff6010ada9d
+	0x7ff601138d96
+	0x7ff601141290
+	0x7ff601109a1c
+	0x7ff601108c76
+	0x7ff601109843
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff60137f264
+	0x7ff60137f3a9
+	0x7ff60136d1e2
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:07:54,724 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAAsPB5wCziH05kGzmAYRXHEX17wER9rL-w7pU7dHkFRY0/ - 窗口已关闭: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=145.0.3800.97)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6016bad0a
+	0x7ff6010ada9d
+	0x7ff601138d96
+	0x7ff601141290
+	0x7ff601109a1c
+	0x7ff601108c76
+	0x7ff601109843
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff60137f264
+	0x7ff60137f3a9
+	0x7ff60136d1e2
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:07:54,727 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAA9PhgIqdYJhz4pKN8qr8qsP8D7sOr5Vp9t8XlChkKIg9PL8tpZ2aQt_fYJbM_qRPd/ - 窗口已关闭: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=145.0.3800.97)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6016bad0a
+	0x7ff6010ada9d
+	0x7ff601138d96
+	0x7ff601141290
+	0x7ff601109a1c
+	0x7ff601108c76
+	0x7ff601109843
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff60137f264
+	0x7ff60137f3a9
+	0x7ff60136d1e2
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:07:54,730 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/CiuWJale4Co2QonhqjYlC2fXXq2GyyIVk2q4ZUsRO9DgpyOm0g_T2P5MzYUAGkkKPAAAAAAAAAAAAABQK3bvmfVUIxeOLx2bv_VYj6fzfMcSOhCgMbmTOKoqUf4BA2ZKQucG5Bm19M0aGaAWMhCb5YsOGMPFg-oEIgEDQQ7Z5A==/?source=list - 窗口已关闭: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=145.0.3800.97)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6016bad0a
+	0x7ff6010ada9d
+	0x7ff601138d96
+	0x7ff601141290
+	0x7ff601109a1c
+	0x7ff601108c76
+	0x7ff601109843
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff60137f264
+	0x7ff60137f3a9
+	0x7ff60136d1e2
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:07:54,733 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAA1EGrpO6CvVJFRUKLYySZRId8PuIpDbRd5iAVlovRFCs/ - 窗口已关闭: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=145.0.3800.97)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6016bad0a
+	0x7ff6010ada9d
+	0x7ff601138d96
+	0x7ff601141290
+	0x7ff601109a1c
+	0x7ff601108c76
+	0x7ff601109843
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff60137f264
+	0x7ff60137f3a9
+	0x7ff60136d1e2
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:07:54,736 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAAkzDa4TAe0T1eOaByVmhSuArh--Y06SXb0b2aXqrAP57-ILDhRsOOMYPv9y5vvKTh/ - 窗口已关闭: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=145.0.3800.97)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6016bad0a
+	0x7ff6010ada9d
+	0x7ff601138d96
+	0x7ff601141290
+	0x7ff601109a1c
+	0x7ff601108c76
+	0x7ff601109843
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff60137f264
+	0x7ff60137f3a9
+	0x7ff60136d1e2
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:07:54,737 - INFO - 关注成功: 2
+2026-03-11 15:07:54,739 - ERROR - 推荐操作失败: 0
+2026-03-11 15:07:54,739 - ERROR - 关注失败: 0
+2026-03-11 15:08:11,043 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)': /session/38fcd470da04c67033f34ce4b81c11f6
+2026-03-11 15:08:15,138 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=2770): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/38fcd470da04c67033f34ce4b81c11f6
+2026-03-11 15:08:19,239 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=2770): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/38fcd470da04c67033f34ce4b81c11f6
+2026-03-11 15:09:30,322 - ERROR - 配置文件不存在: config/config.yaml
+2026-03-11 15:09:48,423 - INFO - 登录成功: 登录成功
+2026-03-11 15:09:50,699 - INFO - 登录成功: 登录成功
+2026-03-11 15:10:22,798 - INFO - 关注成功: 0
+2026-03-11 15:10:33,508 - INFO - 点赞成功: https://www.toutiao.com/video/7614847916645155366/ - 点赞用户视频 1
+2026-03-11 15:10:56,600 - ERROR - 点赞失败: https://www.toutiao.com/video/7615131578548666889/ - 点赞用户视频 2
+2026-03-11 15:11:19,996 - INFO - 点赞成功: https://www.toutiao.com/video/7615130982349423142/ - 点赞用户视频 3
+2026-03-11 15:11:44,344 - INFO - 点赞成功: https://www.toutiao.com/video/7615128192714408458/ - 点赞用户视频 4
+2026-03-11 15:12:08,116 - INFO - 点赞成功: https://www.toutiao.com/video/7615127141012881971/ - 点赞用户视频 5
+2026-03-11 15:12:31,604 - INFO - 点赞成功: https://www.toutiao.com/video/7614465316654957091/ - 点赞用户视频 1
+2026-03-11 15:12:56,259 - INFO - 点赞成功: https://www.toutiao.com/video/7615155043607544335/ - 点赞用户视频 2
+2026-03-11 15:13:16,095 - INFO - 点赞成功: https://www.toutiao.com/video/7615154959704670739/ - 点赞用户视频 3
+2026-03-11 15:13:36,504 - INFO - 点赞成功: https://www.toutiao.com/video/7615155421608280591/ - 点赞用户视频 4
+2026-03-11 15:13:54,834 - INFO - 点赞成功: https://www.toutiao.com/video/7615155863640113670/ - 点赞用户视频 5
+2026-03-11 15:14:17,442 - ERROR - 点赞失败: https://www.toutiao.com/video/7612727291642233387/ - 点赞用户视频 1
+2026-03-11 15:14:29,090 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)': /session/143f4c2f39a78a60f2d546985b76ed36
+2026-03-11 15:14:47,506 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=3015): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/143f4c2f39a78a60f2d546985b76ed36
+2026-03-11 15:15:01,885 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=3015): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/143f4c2f39a78a60f2d546985b76ed36
+2026-03-11 15:15:06,001 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=3015): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/143f4c2f39a78a60f2d546985b76ed36
+2026-03-11 15:15:10,111 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=3015): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/143f4c2f39a78a60f2d546985b76ed36
+2026-03-11 15:15:14,212 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:15:14,212 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:15:14,213 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:15:14,213 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:15:14,213 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:15:14,213 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:15:14,214 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:15:38,757 - ERROR - 配置文件不存在: config/config.yaml
+2026-03-11 15:15:57,032 - INFO - 登录成功: 登录成功
+2026-03-11 15:15:59,589 - INFO - 登录成功: 登录成功
+2026-03-11 15:16:33,874 - INFO - 关注成功: 0
+2026-03-11 15:16:54,325 - INFO - 点赞成功: https://www.toutiao.com/video/7615816183077404723/ - 点赞用户视频 1
+2026-03-11 15:17:17,681 - INFO - 点赞成功: https://www.toutiao.com/video/7615815547619410458/ - 点赞用户视频 2
+2026-03-11 15:17:42,416 - INFO - 点赞成功: https://www.toutiao.com/video/7615814955606016538/ - 点赞用户视频 3
+2026-03-11 15:18:05,846 - INFO - 点赞成功: https://www.toutiao.com/video/7615814017148109358/ - 点赞用户视频 4
+2026-03-11 15:18:25,301 - INFO - 点赞成功: https://www.toutiao.com/video/7615813166752219674/ - 点赞用户视频 5
+2026-03-11 15:18:48,040 - INFO - 点赞成功: https://www.toutiao.com/video/7615617252079731252/ - 点赞用户视频 1
+2026-03-11 15:19:10,181 - INFO - 点赞成功: https://www.toutiao.com/video/7615296878153826862/ - 点赞用户视频 2
+2026-03-11 15:19:29,748 - INFO - 点赞成功: https://www.toutiao.com/video/7614900600065262130/ - 点赞用户视频 3
+2026-03-11 15:19:48,151 - INFO - 点赞成功: https://www.toutiao.com/video/7613956189563978292/ - 点赞用户视频 4
+2026-03-11 15:20:07,870 - INFO - 点赞成功: https://www.toutiao.com/video/7613085957440406062/ - 点赞用户视频 5
+2026-03-11 15:20:37,036 - ERROR - 配置文件不存在: config/config.yaml
+2026-03-11 15:20:47,717 - INFO - 点赞成功: https://www.toutiao.com/video/7615859344378315314/ - 点赞用户视频 1
+2026-03-11 15:20:57,124 - INFO - 登录成功: 登录成功
+2026-03-11 15:20:59,130 - INFO - 登录成功: 登录成功
+2026-03-11 15:21:07,489 - INFO - 点赞成功: https://www.toutiao.com/video/7615867506825970222/ - 点赞用户视频 2
+2026-03-11 15:21:26,348 - INFO - 点赞成功: https://www.toutiao.com/video/7615807807618564614/ - 点赞用户视频 3
+2026-03-11 15:21:31,460 - INFO - 关注成功: 0
+2026-03-11 15:21:40,629 - ERROR - 点赞失败: https://www.toutiao.com/video/7612862873420710426/ - 点赞用户视频 1
+2026-03-11 15:21:46,543 - INFO - 点赞成功: https://www.toutiao.com/video/7615848264553824787/ - 点赞用户视频 4
+2026-03-11 15:22:02,724 - INFO - 点赞成功: https://www.toutiao.com/video/7615845781748122175/ - 点赞用户视频 2
+2026-03-11 15:22:03,812 - INFO - 点赞成功: https://www.toutiao.com/video/7615831796005093914/ - 点赞用户视频 5
+2026-03-11 15:22:20,513 - INFO - 点赞成功: https://www.toutiao.com/video/7615073500360999451/ - 点赞用户视频 3
+2026-03-11 15:22:36,000 - INFO - 点赞成功: https://www.toutiao.com/video/7615893259789565967/ - 点赞用户视频 1
+2026-03-11 15:22:42,734 - INFO - 点赞成功: https://www.toutiao.com/video/7615822753777599010/ - 点赞用户视频 4
+2026-03-11 15:23:01,554 - INFO - 点赞成功: https://www.toutiao.com/video/7615810470934479423/ - 点赞用户视频 5
+2026-03-11 15:23:08,575 - INFO - 点赞成功: https://www.toutiao.com/video/7594104548235444736/ - 点赞用户视频 1
+2026-03-11 15:23:28,058 - INFO - 点赞成功: https://www.toutiao.com/video/7615774924044501538/ - 点赞用户视频 1
+2026-03-11 15:23:32,562 - INFO - 点赞成功: https://www.toutiao.com/video/7614358538916086312/ - 点赞用户视频 2
+2026-03-11 15:23:47,804 - INFO - 点赞成功: https://www.toutiao.com/video/7615671006308352531/ - 点赞用户视频 2
+2026-03-11 15:23:50,136 - ERROR - 点赞失败: https://www.toutiao.com/video/7614356613691965986/ - 点赞用户视频 3
+2026-03-11 15:23:50,143 - INFO - 关注成功: 18
+2026-03-11 15:23:50,145 - ERROR - 推荐操作失败: 0
+2026-03-11 15:23:50,145 - ERROR - 关注失败: 0
+2026-03-11 15:24:12,126 - INFO - 点赞成功: https://www.toutiao.com/video/7615661541513298459/ - 点赞用户视频 3
+2026-03-11 15:24:31,219 - INFO - 点赞成功: https://www.toutiao.com/video/7615652067889234459/ - 点赞用户视频 4
+2026-03-11 15:24:50,964 - INFO - 点赞成功: https://www.toutiao.com/video/7615699449574113833/ - 点赞用户视频 5
+2026-03-11 15:25:13,017 - ERROR - 点赞失败: https://www.toutiao.com/video/7614532388592370191/ - 点赞用户视频 1
+2026-03-11 15:25:31,360 - INFO - 点赞成功: https://www.toutiao.com/video/7615793027449225771/ - 点赞用户视频 2
+2026-03-11 15:25:49,496 - INFO - 点赞成功: https://www.toutiao.com/video/7615800181468725794/ - 点赞用户视频 3
+2026-03-11 15:26:05,239 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAAn99Xv6_YwIoKq8ifGd5TNxY98XTpw09kDDk1HQ6sVAzhPnjpaXC91mwyqkMyRKbP/ - WebDriver错误: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6010cacee
+	0x7ff601108435
+	0x7ff601134122
+	0x7ff6010c2807
+	0x7ff60113066e
+	0x7ff60112fefc
+	0x7ff6010a2e95
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff6010a182a
+	0x7ff6014e51f8
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:26:05,245 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAAD0LUA3IyjpR9JBCYXKbjp4JQaoi7AEcg64_A5IinhMg98_Z30tRUDl7iqVGPRHyj/ - WebDriver错误: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6010cacee
+	0x7ff601108435
+	0x7ff601134122
+	0x7ff6010c2807
+	0x7ff60113066e
+	0x7ff60112fefc
+	0x7ff6010a2e95
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff6010a182a
+	0x7ff6014e51f8
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:26:05,249 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAAv-6jb4jHcExs39rB8HPjCwAMQsOXQu7tlvv7iZ3me5XWhMK2ou5VoJxwvW62-rZ9/ - WebDriver错误: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6010cacee
+	0x7ff601108435
+	0x7ff601134122
+	0x7ff6010c2807
+	0x7ff60113066e
+	0x7ff60112fefc
+	0x7ff6010a2e95
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff6010a182a
+	0x7ff6014e51f8
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:26:05,253 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAA1Ns04DwEAFCJ19IkfkG_FJWJb5_01Xi1PNUeEqwmxLZmMstBMLWZfvrOLW06Rt7V/ - WebDriver错误: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6010cacee
+	0x7ff601108435
+	0x7ff601134122
+	0x7ff6010c2807
+	0x7ff60113066e
+	0x7ff60112fefc
+	0x7ff6010a2e95
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff6010a182a
+	0x7ff6014e51f8
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:26:05,257 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAAaiEPnqixXu_t-vhzxBosIBJvKDc2L-iMbEoLLHDHH1niZCa8Pzaq_iDr17fCQBPP/ - WebDriver错误: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6010cacee
+	0x7ff601108435
+	0x7ff601134122
+	0x7ff6010c2807
+	0x7ff60113066e
+	0x7ff60112fefc
+	0x7ff6010a2e95
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff6010a182a
+	0x7ff6014e51f8
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:26:05,261 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAAJTeeJPEBHZXP50beAePnWw1JSyI7ELYUFzoTv79qhCYF4M78t0LaFK9w_JpLDT8D/ - WebDriver错误: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6010cacee
+	0x7ff601108435
+	0x7ff601134122
+	0x7ff6010c2807
+	0x7ff60113066e
+	0x7ff60112fefc
+	0x7ff6010a2e95
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff6010a182a
+	0x7ff6014e51f8
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:26:05,266 - ERROR - 点赞失败: https://www.toutiao.com/c/user/token/MS4wLjABAAAA6n5Oi3wqiGOEQLzkSitfqAOFt0ry4Twkh0SD8pOhn-_rMM_5YpYw4mmwVsdaqPe8/ - WebDriver错误: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6010cacee
+	0x7ff601108435
+	0x7ff601134122
+	0x7ff6010c2807
+	0x7ff60113066e
+	0x7ff60112fefc
+	0x7ff6010a2e95
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff6010a182a
+	0x7ff6014e51f8
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:26:05,267 - INFO - 关注成功: 11
+2026-03-11 15:26:05,269 - ERROR - 推荐操作失败: 0
+2026-03-11 15:26:05,270 - ERROR - 关注失败: 0
+2026-03-11 15:26:07,180 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)': /session/a1e9e0aa811e9cd77cd35d20eab916f0
+2026-03-11 15:26:13,342 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=3910): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/a1e9e0aa811e9cd77cd35d20eab916f0
+2026-03-11 15:26:17,447 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=3910): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/a1e9e0aa811e9cd77cd35d20eab916f0
+2026-03-11 15:26:21,538 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=3910): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/a1e9e0aa811e9cd77cd35d20eab916f0
+2026-03-11 15:26:25,633 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:30:21,266 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)': /session/1d7f32cc617f363a466832c825dd6f67
+2026-03-11 15:30:39,702 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=3497): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/1d7f32cc617f363a466832c825dd6f67
+2026-03-11 15:30:54,044 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=3497): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/1d7f32cc617f363a466832c825dd6f67
+2026-03-11 15:30:58,147 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=3497): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/1d7f32cc617f363a466832c825dd6f67
+2026-03-11 15:31:02,235 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=3497): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/1d7f32cc617f363a466832c825dd6f67
+2026-03-11 15:31:06,340 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:31:06,340 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:31:06,340 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:31:06,341 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:31:06,341 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:31:06,341 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:31:06,342 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:31:40,396 - ERROR - 配置文件不存在: config/config.yaml
+2026-03-11 15:31:59,143 - INFO - 登录成功: 登录成功
+2026-03-11 15:32:02,578 - INFO - 登录成功: 登录成功
+2026-03-11 15:32:34,626 - INFO - 关注成功: 0
+2026-03-11 15:32:45,260 - INFO - 点赞成功: https://www.toutiao.com/video/7614244004988781099/ - 点赞用户视频 1
+2026-03-11 15:33:09,140 - INFO - 点赞成功: https://www.toutiao.com/video/7615433620727939647/ - 点赞用户视频 2
+2026-03-11 15:33:29,343 - INFO - 点赞成功: https://www.toutiao.com/video/7615458557751738895/ - 点赞用户视频 3
+2026-03-11 15:33:51,690 - INFO - 点赞成功: https://www.toutiao.com/video/7615480645279678976/ - 点赞用户视频 4
+2026-03-11 15:34:11,778 - INFO - 点赞成功: https://www.toutiao.com/video/7615383996167455266/ - 点赞用户视频 5
+2026-03-11 15:34:34,270 - ERROR - 点赞失败: https://www.toutiao.com/video/7615088071167476262/ - 点赞用户视频 1
+2026-03-11 15:34:51,053 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)': /session/fcb53324a6abfb238396d773acf15b01
+2026-03-11 15:34:57,188 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=4615): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/fcb53324a6abfb238396d773acf15b01
+2026-03-11 15:35:01,297 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=4615): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/fcb53324a6abfb238396d773acf15b01
+2026-03-11 15:35:05,383 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=4615): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/fcb53324a6abfb238396d773acf15b01
+2026-03-11 15:35:09,477 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-03-11 15:47:28,910 - ERROR - 配置文件不存在: config/config.yaml
+2026-03-11 15:47:46,879 - INFO - 登录成功: 登录成功
+2026-03-11 15:47:49,966 - INFO - 登录成功: 登录成功
+2026-03-11 15:48:11,131 - INFO - 推荐操作成功: 0
+2026-03-11 15:48:15,982 - ERROR - 点赞失败: https://www.toutiao.com/article/7057540981322842661 - 点赞内容
+2026-03-11 15:48:37,875 - INFO - 点赞成功: https://www.toutiao.com/article/7615249336720507419/ - 点赞内容
+2026-03-11 15:49:00,573 - INFO - 点赞成功: https://www.toutiao.com/video/7457727162561331750/ - 点赞内容
+2026-03-11 15:49:18,977 - ERROR - 点赞失败: https://www.toutiao.com/article/7614699918317322761/ - 点赞内容
+2026-03-11 15:49:22,400 - ERROR - 点赞失败: https://www.toutiao.com/video/7590437788160868395/ - WebDriver错误: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6010cacee
+	0x7ff601108435
+	0x7ff601134122
+	0x7ff6010c2807
+	0x7ff60113066e
+	0x7ff60112fefc
+	0x7ff6010a2e95
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff6010a182a
+	0x7ff6014e51f8
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:49:22,403 - ERROR - 点赞失败: https://www.toutiao.com/video/7612641497418187283/ - WebDriver错误: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6010cacee
+	0x7ff601108435
+	0x7ff601134122
+	0x7ff6010c2807
+	0x7ff60113066e
+	0x7ff60112fefc
+	0x7ff6010a2e95
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff6010a182a
+	0x7ff6014e51f8
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:49:22,406 - ERROR - 点赞失败: https://www.toutiao.com/article/7615539422372692507/#comment - WebDriver错误: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6010cacee
+	0x7ff601108435
+	0x7ff601134122
+	0x7ff6010c2807
+	0x7ff60113066e
+	0x7ff60112fefc
+	0x7ff6010a2e95
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff6010a182a
+	0x7ff6014e51f8
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:49:22,409 - ERROR - 点赞失败: https://www.toutiao.com/article/6914171607581721099 - WebDriver错误: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6010cacee
+	0x7ff601108435
+	0x7ff601134122
+	0x7ff6010c2807
+	0x7ff60113066e
+	0x7ff60112fefc
+	0x7ff6010a2e95
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff6010a182a
+	0x7ff6014e51f8
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:49:22,412 - ERROR - 点赞失败: https://www.toutiao.com/video/7615700278200893986/ - WebDriver错误: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6010cacee
+	0x7ff601108435
+	0x7ff601134122
+	0x7ff6010c2807
+	0x7ff60113066e
+	0x7ff60112fefc
+	0x7ff6010a2e95
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff6010a182a
+	0x7ff6014e51f8
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:49:22,415 - ERROR - 点赞失败: https://www.toutiao.com/article/7615539422372692507/ - WebDriver错误: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff601377c25
+	0x7ff601377c84
+	0x7ff6010cacee
+	0x7ff601108435
+	0x7ff601134122
+	0x7ff6010c2807
+	0x7ff60113066e
+	0x7ff60112fefc
+	0x7ff6010a2e95
+	0x7ff6011d0564
+	0x7ff6011cca03
+	0x7ff6011dd0c3
+	0x7ff601392308
+	0x7ff60139abe6
+	0x7ff6010a182a
+	0x7ff6014e51f8
+	0x7ff8a3937374
+	0x7ff8a471cc91
+
+2026-03-11 15:49:22,417 - INFO - 关注成功: 2
+2026-03-11 15:49:22,419 - ERROR - 关注失败: 0
+2026-03-11 15:49:22,419 - ERROR - 关注失败: 0
+2026-03-11 17:27:13,305 - INFO - 配置文件加载成功: config/config.yaml
+2026-03-11 17:27:13,307 - INFO - 配置文件加载成功: config/config.yaml
+2026-03-11 17:27:13,307 - INFO - 配置文件已重新加载: config/config.yaml
+2026-03-11 17:27:13,688 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:13] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:16,203 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:16] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:18,195 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:18] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:20,204 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:20] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:22,203 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:22] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:23,195 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:23] "GET /api/accounts HTTP/1.1" 200 -
+2026-03-11 17:27:24,202 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:24] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:26,200 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:26] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:28,199 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:28] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:30,197 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:30] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:31,731 - INFO - 登录成功: 登录成功
+2026-03-11 17:27:32,206 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:32] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:34,206 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:34] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:34,604 - INFO - 登录成功: 登录成功
+2026-03-11 17:27:36,202 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:36] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:38,200 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:38] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:38,202 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:38] "GET /api/accounts HTTP/1.1" 200 -
+2026-03-11 17:27:40,199 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:40] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:42,195 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:42] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:44,195 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:44] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:46,203 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:46] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:48,198 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:48] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:50,202 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:50] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:52,203 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:52] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:53,198 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:53] "GET /api/accounts HTTP/1.1" 200 -
+2026-03-11 17:27:54,207 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:54] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:54,394 - INFO - 推荐操作成功: 0
+2026-03-11 17:27:56,198 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:56] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:27:58,201 - INFO - 192.168.31.254 - - [11/Mar/2026 17:27:58] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:28:00,200 - INFO - 192.168.31.254 - - [11/Mar/2026 17:28:00] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:28:01,636 - INFO - 点赞成功: https://www.toutiao.com/video/7615441536184074792/ - 点赞内容
+2026-03-11 17:28:02,198 - INFO - 192.168.31.254 - - [11/Mar/2026 17:28:02] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:28:04,201 - INFO - 192.168.31.254 - - [11/Mar/2026 17:28:04] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:28:06,201 - INFO - 192.168.31.254 - - [11/Mar/2026 17:28:06] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:28:08,200 - INFO - 192.168.31.254 - - [11/Mar/2026 17:28:08] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:28:08,202 - INFO - 192.168.31.254 - - [11/Mar/2026 17:28:08] "GET /api/accounts HTTP/1.1" 200 -
+2026-03-11 17:28:10,197 - INFO - 192.168.31.254 - - [11/Mar/2026 17:28:10] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:28:12,194 - INFO - 192.168.31.254 - - [11/Mar/2026 17:28:12] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:28:14,206 - INFO - 192.168.31.254 - - [11/Mar/2026 17:28:14] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:28:17,336 - INFO - 点赞成功: https://www.toutiao.com/video/7594810879074370054/ - 点赞内容
+2026-03-11 17:28:31,201 - INFO - 192.168.31.254 - - [11/Mar/2026 17:28:31] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:28:31,202 - INFO - 192.168.31.254 - - [11/Mar/2026 17:28:31] "GET /api/accounts HTTP/1.1" 200 -
+2026-03-11 17:28:36,810 - INFO - 点赞成功: https://www.toutiao.com/article/7615754212324786729/#comment - 点赞内容
+2026-03-11 17:28:55,357 - INFO - 点赞成功: https://www.toutiao.com/video/7612157452028477993/ - 点赞内容
+2026-03-11 17:29:12,593 - INFO - 点赞成功: https://www.toutiao.com/video/7615080878653964314/ - 点赞内容
+2026-03-11 17:29:29,080 - INFO - 点赞成功: https://www.toutiao.com/article/7615537795418948106/ - 点赞内容
+2026-03-11 17:29:31,202 - INFO - 192.168.31.254 - - [11/Mar/2026 17:29:31] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:29:31,203 - INFO - 192.168.31.254 - - [11/Mar/2026 17:29:31] "GET /api/accounts HTTP/1.1" 200 -
+2026-03-11 17:29:47,289 - INFO - 点赞成功: https://www.toutiao.com/article/7615660499962708520/ - 点赞内容
+2026-03-11 17:30:03,122 - ERROR - 点赞失败: https://www.toutiao.com/video/7457797727712182822/ - 点赞内容
+2026-03-11 17:30:21,347 - INFO - 点赞成功: https://www.toutiao.com/article/7604707743789761034/#comment - 点赞内容
+2026-03-11 17:30:31,202 - INFO - 192.168.31.254 - - [11/Mar/2026 17:30:31] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:30:31,204 - INFO - 192.168.31.254 - - [11/Mar/2026 17:30:31] "GET /api/accounts HTTP/1.1" 200 -
+2026-03-11 17:30:38,548 - INFO - 点赞成功: https://www.toutiao.com/article/7615801514108256803/ - 点赞内容
+2026-03-11 17:30:49,801 - INFO - 关注成功: 9
+2026-03-11 17:31:21,963 - INFO - 关注成功: 0
+2026-03-11 17:31:31,205 - INFO - 192.168.31.254 - - [11/Mar/2026 17:31:31] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:31:31,207 - INFO - 192.168.31.254 - - [11/Mar/2026 17:31:31] "GET /api/accounts HTTP/1.1" 200 -
+2026-03-11 17:31:32,417 - ERROR - 点赞失败: https://www.toutiao.com/video/7606262039283008051/ - 点赞用户视频 1
+2026-03-11 17:31:48,724 - INFO - 点赞成功: https://www.toutiao.com/video/7615031956727710218/ - 点赞用户视频 2
+2026-03-11 17:32:12,244 - INFO - 点赞成功: https://www.toutiao.com/video/7614881412738482729/ - 点赞用户视频 1
+2026-03-11 17:32:30,064 - INFO - 点赞成功: https://www.toutiao.com/video/7615594389108163113/ - 点赞用户视频 2
+2026-03-11 17:32:31,204 - INFO - 192.168.31.254 - - [11/Mar/2026 17:32:31] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:32:31,206 - INFO - 192.168.31.254 - - [11/Mar/2026 17:32:31] "GET /api/accounts HTTP/1.1" 200 -
+2026-03-11 17:32:50,412 - ERROR - 点赞失败: https://www.toutiao.com/video/7615852594997428278/ - 点赞用户视频 1
+2026-03-11 17:33:06,340 - ERROR - 点赞失败: https://www.toutiao.com/video/7615844182870983187/ - 点赞用户视频 2
+2026-03-11 17:33:26,284 - ERROR - 点赞失败: https://www.toutiao.com/video/7534985864640758313/ - 点赞用户视频 1
+2026-03-11 17:33:31,200 - INFO - 192.168.31.254 - - [11/Mar/2026 17:33:31] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:33:31,201 - INFO - 192.168.31.254 - - [11/Mar/2026 17:33:31] "GET /api/accounts HTTP/1.1" 200 -
+2026-03-11 17:33:43,904 - ERROR - 点赞失败: https://www.toutiao.com/video/7501208467361890857/ - 点赞用户视频 2
+2026-03-11 17:34:05,041 - INFO - 点赞成功: https://www.toutiao.com/video/7615847936065192494/ - 点赞用户视频 1
+2026-03-11 17:34:22,889 - INFO - 点赞成功: https://www.toutiao.com/video/7615862651150697001/ - 点赞用户视频 2
+2026-03-11 17:34:31,206 - INFO - 192.168.31.254 - - [11/Mar/2026 17:34:31] "GET /api/status HTTP/1.1" 200 -
+2026-03-11 17:34:31,208 - INFO - 192.168.31.254 - - [11/Mar/2026 17:34:31] "GET /api/accounts HTTP/1.1" 200 -
